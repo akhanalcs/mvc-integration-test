@@ -1,0 +1,14 @@
+{
+  "BlahAppConfig": {
+    "Global": {
+      "AppCodes": [ "MyCoolApp" ]
+    },
+    "Usage": {
+      "Reason": "These config are used to get config values from a web service. Think like Azure App Config."
+    },
+    "Caching": {
+      "CacheMode": "On",
+      "CacheMinutes": "30" //The number of minutes to cache responses for. 
+    }
+  }
+}

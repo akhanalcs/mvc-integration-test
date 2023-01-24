@@ -1,0 +1,7 @@
+{
+  "BlahAppConfig": {
+    "Global": {
+      "Endpoints": [ "https://blah.companydomain.com" ]
+    }
+  }
+}
