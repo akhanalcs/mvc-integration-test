@@ -14,7 +14,8 @@ namespace MyCoolApp.IntegrationTests
         public static void ClassInit(TestContext testContext)
         {
             Console.WriteLine(testContext.TestName);
-            _factory = new WebApplicationFactory<Program>().WithWebHostBuilder(builder => builder.UseEnvironment("Staging"));
+            //_factory = new WebApplicationFactory<Program>().WithWebHostBuilder(builder => builder.UseEnvironment("Staging"));
+            _factory = new CustomWebApplicationFactory<Program>();
         }
 
         [ClassCleanup]
